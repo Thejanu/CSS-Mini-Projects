@@ -54,7 +54,7 @@ Each project is self-contained — no dependencies or build tools required.
 
 ---
 
-## 📢 Live Demo (Optional)
+## 📢 Live Demo 
 
 You can check out the live demos here:  
 👉  [https://thejanu.github.io/CSS-Mini-Projects/](https://thejanu.github.io/CSS-Mini-Projects/)
