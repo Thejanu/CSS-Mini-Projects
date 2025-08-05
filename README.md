@@ -50,7 +50,7 @@ They're lightweight, responsive, and showcase different UI effects and animation
 3. Open the project folder you're interested in.
 4. Open `index.html` in your browser.
 
-Each project is self-contained — no dependencies or build tools required.
+Each project is self-contained no dependencies or build tools required.
 
 ---
 
