@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+:root {
+    --card-height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    height: var(--card-height);
+    width: calc(var(--card-height) * 2/3);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    color: red;
+    font-size: 20px;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+}
+
+.middle :nth-child(3),
+.middle :nth-child(4){
+        transform: rotate(180deg);
+     /* transform: scaleY(-1); -this one also works-*/
+}
+
+.right{
+    transform: rotate(180deg);
+}
